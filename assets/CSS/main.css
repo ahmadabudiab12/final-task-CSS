@@ -29,6 +29,17 @@ color: white;
     background-color:rgba(237, 79, 35, 0.923);;
 }
 
+
+
+.get-start .column{
+    width: 50%;
+}
+
+.get-start .botton:hover{
+
+    background-color:rgba(240, 255, 240, 0.724);
+}
+
 @media screen and (min-width:0) and (max-width:1000px){
 .menu-icon{
     display: block;
@@ -37,6 +48,10 @@ color: white;
 .navmenu{
 
     display: none;
+}
+
+.hero .column{
+    width: 70%;
 }
 
 .hero h1{
@@ -67,11 +82,66 @@ header .container{
     margin: 0 auto;
 }
 
- 
+
+.get-start .column{
+    width: 70%;
 }
 
-@media screen and (min-width:0) and (max-width:500px){
-.hero h1{
+.get-start h2{
+    font-size: calc(var(--spacer) * 5);
+}
+
+.get-start p{
+
+    font-size: calc(var(--spacer) * 3);
+}
+
+.get-start a{
+
+    font-size: calc(var(--spacer) * 3);
+}
+
+
+
+.get-start .botton{
+    padding-top: calc(var(--spacer) * 2);
+     padding-bottom: calc(var(--spacer) * 2);
+      padding-right: calc(var(--spacer) * 5);
+     padding-left: calc(var(--spacer) * 5);
+}
+
+ .your-services .row{
+    
+    flex-wrap: wrap;
+}
+
+.your-services h2{
+     font-size: calc(var(--spacer) * 6)
+
+}
+
+.your-services h3{
+     font-size: calc(var(--spacer) * 4)
+
+}
+
+.your-services p{
+     font-size: calc(var(--spacer) * 3)
+
+}
+.your-services .container{
+    width: calc( 100% - 150px );
+    margin: 0 auto;
+}
+
+
+}
+@media screen and (min-width:0) and (max-width:520px){
+
+.hero .column{
+    width: 80%;
+}
+    .hero h1{
     font-size: calc(var(--spacer) * 4);
 }
 
@@ -93,4 +163,50 @@ header .container{
      padding-bottom: calc(var(--spacer) * 2);
 }
 
+
+
+
+.get-start .column{
+    width: 80%;
+}
+    .get-start h2{
+    font-size: calc(var(--spacer) * 4);
+}
+
+.get-start p{
+
+    font-size: calc(var(--spacer) * 2);
+}
+
+
+
+.get-start .botton{
+    padding-right: calc(var(--spacer) * 4);
+     padding-left: calc(var(--spacer) * 4);
+     padding-top: calc(var(--spacer) * 2);
+     padding-bottom: calc(var(--spacer) * 2);
+}
+.your-services h2{
+     font-size: calc(var(--spacer) * 4)
+
+}
+
+.your-services h3{
+     font-size: calc(var(--spacer) * 3)
+
+}
+
+.your-services p{
+     font-size: calc(var(--spacer) * 2)
+
+}
+.your-services .container{
+    width: calc( 100% - 20px );
+    margin: 0 auto;
+}
+
+}
+
+.service{
+        align-self: self-start;
 }
